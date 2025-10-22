@@ -51,3 +51,15 @@ AI & Cybersecurity Researcher | Interested in Machine Learning, Threat Detection
 ---
 
 ## 📂 Repository Structure  
+---
+
+## 🧠 Keywords  
+AI, Cybersecurity, Phishing Detection, NLP, Machine Learning, Email Security
+
+---
+
+### 🏷️ Citation  
+If you’d like to reference this work, please cite:  
+**Paul, C. (2025). AI-Phishing-Detector: A Machine Learning Approach for Detecting Phishing Emails Using NLP. GitHub Repository.**
+
+---
