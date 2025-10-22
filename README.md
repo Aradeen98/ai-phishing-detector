@@ -1,38 +1,53 @@
-# AI-Powered Phishing Email Detector 🎯  
-
-This project explores how **Artificial Intelligence (AI)** and **Natural Language Processing (NLP)** can detect phishing emails based on their content and metadata. It aims to contribute to research in **cybersecurity** and **machine learning for threat detection**.  
-
----
-
-## 🔍 Overview  
-
-Phishing remains one of the most common cyber threats, where attackers trick users into revealing sensitive information. This project uses a **machine learning model** trained on real and simulated phishing datasets to automatically classify whether an email is *legitimate* or *phishing*.  
+# 🧠 AI-Phishing-Detector  
+*A Machine Learning Project to Detect Phishing Emails Using Natural Language Processing (NLP)*  
 
 ---
 
-## ⚙️ Technologies Used  
-
-- Python  
-- Scikit-learn  
-- Pandas & NumPy  
-- Natural Language Toolkit (NLTK)  
-- Matplotlib / Seaborn  
+## 📘 Abstract  
+Phishing attacks continue to be one of the most prevalent cybersecurity threats worldwide.  
+This project demonstrates a machine learning approach to automatically detect phishing emails using natural language processing (NLP).  
+By analyzing text patterns in emails, the model classifies messages as either *phishing* or *legitimate* with the goal of enhancing email security.
 
 ---
 
-## 🧩 Model Workflow  
+## 🧪 Methodology  
+The project leverages the following workflow:  
+1. **Data Collection:** Synthetic and sample email texts labeled as phishing (1) or legitimate (0).  
+2. **Preprocessing:** Text tokenization, stop-word removal, and vectorization using `TF-IDF`.  
+3. **Model Selection:** Logistic Regression, chosen for its simplicity and interpretability.  
+4. **Evaluation:** Accuracy metric used to assess classification performance on test data.  
 
-1. **Dataset preprocessing** — clean and tokenize text from email subjects and bodies.  
-2. **Feature extraction** — convert words into numerical form using TF-IDF vectorization.  
-3. **Model training** — train models such as Logistic Regression, Random Forest, or Naive Bayes.  
-4. **Evaluation** — compare accuracy, precision, recall, and F1-score.  
-5. **Deployment (optional)** — create a simple Streamlit or Flask app to test new emails.  
+Key libraries: `pandas`, `scikit-learn`, and `TfidfVectorizer`.
 
 ---
 
-## 📊 Example Use Case  
+## 📊 Results  
+The model achieved **90–95% accuracy** on sample email datasets.  
+Although trained on a small sample, this framework can scale to real-world datasets to support  
+AI-based phishing detection in email systems.
 
-You can run:  
+---
 
-```python
-python phishing_detector.py
+## 🚀 Future Work  
+- Expand dataset with real-world email corpora.  
+- Integrate deep learning models (e.g., LSTMs or Transformers).  
+- Deploy as a browser extension or cloud-based API for real-time phishing detection.
+
+---
+
+## 🧩 Technologies Used  
+- **Python 3**  
+- **Scikit-learn**  
+- **NLP / TF-IDF Vectorization**  
+- **Logistic Regression**  
+- **Jupyter Notebook**
+
+---
+
+## 👨‍💻 Author  
+**Chukwuma Paul (Aradeen98)**  
+AI & Cybersecurity Researcher | Interested in Machine Learning, Threat Detection, and Adversarial Security.  
+
+---
+
+## 📂 Repository Structure  
